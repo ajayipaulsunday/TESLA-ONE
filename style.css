@@ -1,0 +1,61 @@
+
+    .container-fluid  ul li a:hover{
+background-color: rgb(165, 163, 163);
+border-radius: 5px;
+}
+.icon{
+margin-top: 20px;
+position: absolute; 
+bottom: 20px;
+left: 50%;
+}
+.icon p{
+transform: scaleX(3);
+color: #fff;
+animation: scale 1s linear infinite;
+}
+
+@keyframes scale{
+50%{
+transform: translateY(-5px) scaleX(3);
+}
+100%{
+transform: translateY(5px) scaleX(3);
+}
+}
+
+
+
+
+@media (max-width:576px) {
+    .button41{
+        width: 92% !important;
+        margin-left: 4% !important;
+    }
+    .button42{
+        width: 92% !important;
+        margin-top: 10px;
+        margin-left: 4% !important;
+    }
+
+    .button81{
+        width: 92% !important;
+
+    }
+    .button82{
+        width: 92% !important;
+        margin-top: 10px;
+
+    }
+
+    
+    .button91{
+        width: 92% !important;
+
+    }
+    .button92{
+        width: 92% !important;
+        margin-top: 10px;
+
+    }
+}
